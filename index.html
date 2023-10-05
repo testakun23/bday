@@ -61,17 +61,17 @@
           transition: transform .8s, opacity .5s;
 
           .btn {
-            width: 50%;
-            height: 5%;
+            width: 70%;
+            height: 7%;
             background-color: rgb(0, 119, 255);
             color: #fff;
             font-size: 1em;
             outline: none;
-            border-radius: 10px;
+            border-radius: 5px;
             border: none;
           }
         }
-        /* Sec 1 */
+
         .sec-1 {
           .img {
             width: 50%;
@@ -134,12 +134,11 @@
               .img-1-text-box {
                 width: 100%;
                 position: absolute;
-                bottom: 10em;
-                right: 5em;
+                bottom: 5em;
                 transition: transform 0.5s, opacity 0.5s;
 
                 display: flex;
-                justify-content: flex-end;
+                justify-content: center;
 
                 .img-1-text {
                   font-family: "Helvetica Neue", sans-serif;
@@ -166,7 +165,6 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                transform: translateX(30px);
 
                 .img-2-text {
                   font-family: "Helvetica Neue", sans-serif;
@@ -262,7 +260,6 @@
           }
         }
 
-        /* Sec 2 */
         .sec-2 {
           position: relative;
 
@@ -375,6 +372,20 @@
           flex-direction: column;
           justify-content: center;
           align-items: center;
+          position: relative;
+         
+
+          .img-rose {
+            background-image: url("./assets/a1.png");
+            width: 100%;
+            height: 100vh;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: absolute;
+            top: 0;
+            left: 0;
+            opacity: .5;
+          }
 
           .c-3-text {
             font-family: "Helvetica Neue", sans-serif;
@@ -385,6 +396,7 @@
             margin-bottom: 0.5em;
             opacity: 0;
             transform: translateY(30px);
+            z-index: 1;
           }
           .c-4-text {
             margin-top: 0.5em;
@@ -395,6 +407,334 @@
             transition: transform 0.5s, opacity 0.5s;
             opacity: 0;
             transform: translateY(30px);
+            z-index: 1;
+          }
+        }
+
+        .sec-4 {
+          position: relative;
+          .left-4 {
+            background-image: url("./assets/left.png");
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            z-index: 1;
+            width: 50%;
+            height: 100%;
+            position: absolute;
+            left: 0;
+            top: 0;
+          }
+          .right-4 {
+            background-image: url("./assets/right.png");
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            z-index: 1;
+            width: 50%;
+            height: 100%;
+            position: absolute;
+            right: 0;
+            top: 0;
+          }
+
+          .rounded {
+            border-radius: 10px;
+          }
+
+          .type {
+            font-family: "Helvetica Neue", sans-serif;
+            font-size: 14px;
+            line-height: 1.3em;
+            width: 50%;
+            height: 100%;
+          }
+
+          .bg-type {
+            background-image: url("./assets/bg3.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 100%;
+            height: 100%;
+            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+
+          .box-1, .box-2, .box-3, .box-4 {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+
+            transition: .5s;
+          }
+
+          .box-2, .box-3, .box-4 {
+            transform: translateX(50vw);
+          }
+
+          .wrap-1-a {
+            width: 100%;
+            height: 50%;
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: center;
+            align-items: center;
+          }
+          .wrap-1-b {
+            width: 100%;
+            height: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+
+          .wrap-2-a {
+            width: 100%;
+            height: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+          .wrap-2-b {
+            width: 100%;
+            height: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row-reverse;
+          }
+
+          .wrap-3-a {
+            width: 100%;
+            height: 50%;
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: center;
+            align-items: center;
+          }
+          .wrap-3-b {
+            width: 100%;
+            height: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+
+          .wrap-4-a {
+            width: 100%;
+            height: 50%;
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: center;
+            align-items: center;
+          }
+          .wrap-4-b {
+            width: 100%;
+            height: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+
+          .type-1 {
+            transform: translateX(30px);
+            opacity: 0;
+            transition: transform .5s, opacity .5s;
+          }
+
+          .type-2 {
+            transform: translateX(-30px);
+            opacity: 0;
+            transition: transform .5s, opacity .5s;
+          }
+
+          .type-3 {
+            transform: translateX(-30px);
+            opacity: 0;
+            transition: transform .5s, opacity .5s;
+          }
+
+          .type-4 {
+            transform: translateX(30px);
+            opacity: 0;
+            transition: transform .5s, opacity .5s;
+          }
+
+          .type-5 {
+            transform: translateX(30px);
+            opacity: 0;
+            transition: transform .5s, opacity .5s;
+          }
+          
+          .type-6 {
+            transform: translateX(-30px);
+            opacity: 0;
+            transition: transform .5s, opacity .5s;
+          }
+
+          .type-7 {
+            transform: translateX(-30px);
+            opacity: 0;
+            transition: transform .5s, opacity .5s;
+          }
+
+          .type-8 {
+            transform: translateX(30px);
+            opacity: 0;
+            transition: transform .5s, opacity .5s;
+          }
+
+          .pict-1 {
+            background-image: url("./assets/img/1.jpg");
+            background-size: contain;
+            width: 50%;
+            height: 100%;
+            background-repeat: no-repeat;
+            background-position: right;
+
+            transform: translateX(30px);
+            opacity: 0;
+            transition: transform .5s, opacity .5s;
+          }
+
+          .pict-2 {
+            background-image: url("./assets/img/2.jpg");
+            background-size: contain;
+            width: 50%;
+            height: 100%;
+            background-repeat: no-repeat;
+            background-position: left;
+
+            transform: translateX(-30px);
+            opacity: 0;
+            transition: transform .5s, opacity .5s;
+          }
+
+          .pict-3 {
+            background-image: url("./assets/img/3.jpg");
+            background-size: contain;
+            width: 50%;
+            height: 100%;
+            background-repeat: no-repeat;
+            background-position: left;
+
+            transform: translateX(-30px);
+            opacity: 0;
+            transition: transform .5s, opacity .5s;
+          }
+
+          .pict-4 {
+            background-image: url("./assets/img/4.jpg");
+            background-size: contain;
+            width: 50%;
+            height: 100%;
+            background-repeat: no-repeat;
+            background-position: right;
+
+            transform: translateX(30px);
+            opacity: 0;
+            transition: transform .5s, opacity .5s;
+          }
+
+          .pict-5 {
+            background-image: url("./assets/img/5.jpg");
+            background-size: contain;
+            width: 50%;
+            height: 100%;
+            background-repeat: no-repeat;
+            background-position: left;
+
+            transform: translateX(-30px);
+            opacity: 0;
+            transition: transform .5s, opacity .5s;
+          }
+
+          .pict-6 {
+            background-image: url("./assets/img/6.jpg");
+            background-size: contain;
+            width: 50%;
+            height: 100%;
+            background-repeat: no-repeat;
+            background-position: right;
+
+            transform: translateX(30px);
+            opacity: 0;
+            transition: transform .5s, opacity .5s;
+          }
+
+          .pict-7 {
+            background-image: url("./assets/img/7.jpg");
+            background-size: contain;
+            width: 50%;
+            height: 100%;
+            background-repeat: no-repeat;
+            background-position: right;
+
+            transform: translateX(-30px);
+            opacity: 0;
+            transition: transform .5s, opacity .5s;
+          }
+
+          .pict-8 {
+            background-image: url("./assets/img/8.jpg");
+            background-size: contain;
+            width: 50%;
+            height: 100%;
+            background-repeat: no-repeat;
+            background-position: left;
+
+            transform: translateX(30px);
+            opacity: 0;
+            transition: transform .5s, opacity .5s;
+          }
+
+          .box-5 {
+            
+            position: relative;
+            width: 100%;
+            height: 100%;
+
+            .left-5 {
+              width: 0;
+              height: 100%;
+              background-color: #fff;
+              transition: .5s;
+              position: absolute;
+              left: 0;
+            }
+
+            .right-5 {
+              width: 0;
+              height: 100%;
+              background-color: #fff;
+              transition: .5s;
+              right: 0;
+              position: absolute;
+            }
+
+            .copy-5 {
+              position: absolute;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              flex-direction: column;
+              height: 100%;
+              width: 100%;
+
+              font-family: "Helvetica Neue", sans-serif;
+              font-size: 14px;
+              line-height: 1.3em;
+              gap: 2em;
+            }
+
+            .copy-5-1, .copy-5-2 {
+              transform: translateY(30px);
+              transition: .5s;
+              opacity: 0;
+            }
+
           }
         }
       }
@@ -411,7 +751,7 @@
       <div class="img img-right"></div>
 
       <div class="container main main-1">
-        <div class="text text-1">Hi, Khairani Rizki Amalia</div>
+        <div class="text text-1">Hi, Khairani Rizqi Amalia</div>
         <div class="text text-2">
           In the quiet moments when the world seems to stand still, we celebrate
           you in your special day.
@@ -461,6 +801,90 @@
       </div>
     </div>
 
+    <div class="section sec-4">
+      <div class="left-4"></div>
+      <div class="right-4"></div>
+
+        <div class="box-1">
+          <div class="wrap-1-a">
+            <div class="rounded pict-1"></div>
+            <div class="type">
+              <div class="bg-type type-1">"You're such a goofball,<br>and I love it!"</div>
+            </div>
+          </div>
+          <div class="wrap-1-b">
+            <div class="rounded pict-2"></div>
+            <div class="type">
+              <div class="bg-type type-2">"Wow, you're really<br>bringing out your inner<br> clown today!"</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="box-2">
+          <div class="wrap-2-a">
+            <div class="rounded pict-3"></div>
+            <div class="type">
+              <div class="bg-type type-3">
+                "You've got a knack for<br>turning any moment into<br>a comedy show."
+              </div>
+            </div>
+          </div>
+          <div class="wrap-2-b">
+            <div class="rounded pict-4"></div>
+            <div class="type">
+              <div class="bg-type type-4">
+                "I can always count on<br>you for a good laugh<br> with your silly antics."
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="box-3">
+          <div class="wrap-3-a">
+            <div class="rounded pict-5"></div>
+            <div class="type">
+              <div class="bg-type type-5">"Are you auditioning<br> for the role of the<br> silliest person on<br>Earth?"</div>
+            </div>
+          </div>
+          <div class="wrap-3-b">
+            <div class="rounded pict-6"></div>
+            <div class="type">
+              <div class="bg-type type-6">"it's impossible not to<br> smile around you!"</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="box-4">
+          <div class="wrap-4-a">
+            <div class="rounded pict-7"></div>
+            <div class="type">
+              <div class="bg-type type-7">
+                "Your silliness is<br> contagious"
+              </div>
+            </div>
+          </div>
+          <div class="wrap-4-b">
+            <div class="rounded pict-8"></div>
+            <div class="type">
+              <div class="bg-type type-8">
+                "it's one of your most<br> endearing qualities"
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="box-5">
+          <div class="left-5">
+          </div>
+          <div class="right-5">
+          </div>
+          <div class="copy-5">
+            <div class="copy-5-1">These are the funny things you always do</div>
+            <div class="copy-5-2">that make me fall in love.</div>
+          </div>
+        </div>
+    </div>
+
     <div class="section sec-2">
       <div class="img-bg"></div>
       <div class="wrapper">
@@ -487,7 +911,8 @@
     </div>
 
     <div class="section sec-3">
-      <div class="c-3-text">Happy Birthday, Khairani Rizki Amalia</div>
+      <div class="img-rose"></div>
+      <div class="c-3-text">Happy Birthday, Khairani Rizqi Amalia</div>
       <div class="c-4-text">I love you now and forever❤️</div>
     </div>
 
@@ -549,6 +974,7 @@
       const tl = gsap.timeline();
       const tl2 = gsap.timeline();
       const tl3 = gsap.timeline();
+      const tl4 = gsap.timeline();
 
       const controller = new ScrollMagic.Controller();
 
@@ -684,7 +1110,187 @@
         .setPin(".sec-3")
         .addTo(controller);
 
+
+        const scene4 = new ScrollMagic.Scene({
+        triggerElement: ".sec-4",
+        duration: "500%",
+        triggerHook: 0.0,
+      })
+        .setTween(tl4)
+        .setPin(".sec-4")
+        .addTo(controller);
+
+        tl4.to(".sec-4 .left-4", 1, { x: '-50vw', opacity: 0 }, 0);
+        tl4.to(".sec-4 .right-4", 1, { x: '50vw', opacity: 0 }, 0);
+
+        tl4.to(".sec-4", 0.1, {onStart: wrapa, onReverseComplete: wrapaReverse}, 1);
+        tl4.to(".sec-4", 0.1, {onStart: wrapb, onReverseComplete: wrapbReverse}, 3);
+        
+        tl4.to(".sec-4 .box-1", 0.1, { x: '-50vw', opacity: 0 }, 5);
+
+        tl4.to(".sec-4", 0.1, {onStart: box2, onReverseComplete: box2R }, 6);
+        tl4.to(".sec-4", 0.1, {onStart: wrap2a, onReverseComplete: wrap2aReverse}, 6);
+        tl4.to(".sec-4", 0.1, {onStart: wrap2b, onReverseComplete: wrap2bReverse}, 8);
+
+        tl4.to(".sec-4 .box-2", 0.1, { x: '-50vw', opacity: 0 }, 10);
+
+        tl4.to(".sec-4", 0.1, {onStart: box3, onReverseComplete: box3R }, 11);
+        tl4.to(".sec-4", 0.1, {onStart: wrap3a, onReverseComplete: wrap3aReverse}, 11);
+        tl4.to(".sec-4", 0.1, {onStart: wrap3b, onReverseComplete: wrap3bReverse}, 13);
+
+        tl4.to(".sec-4 .box-3", 0.1, { x: '-50vw', opacity: 0 }, 15);
+
+        tl4.to(".sec-4", 0.1, {onStart: box4, onReverseComplete: box4R }, 16);
+        tl4.to(".sec-4", 0.1, {onStart: wrap4a, onReverseComplete: wrap4aReverse}, 16);
+        tl4.to(".sec-4", 0.1, {onStart: wrap4b, onReverseComplete: wrap4bReverse}, 18);
+
+        tl4.to(".sec-4", .1, {onStart: box5Start, onReverseComplete: box5Reverse}, 20);
+
+        tl4.to(".sec-4", 1, {}, 22);
+
+
+
+
+
       //----- FUNCTION -----//
+
+      function box5Start() {
+        $('.sec-4 .box-5 .left-5').css('width', '50%')
+        $('.sec-4 .box-5 .right-5').css('width', '50%')
+
+        setTimeout(()=> {
+          $('.sec-4 .box-5 .copy-5-1').css('transform', 'unset').css('opacity', 1)
+          setTimeout(()=> {
+            $('.sec-4 .box-5 .copy-5-2').css('transform', 'unset').css('opacity', 1)
+          }, 400)
+        }, 800)
+      }
+
+      function box5Reverse() {
+        setTimeout(() => {
+          $('.sec-4 .box-5 .left-5').css('width', '0')
+          $('.sec-4 .box-5 .right-5').css('width', '0')
+        }, 500);
+        $('.sec-4 .box-5 .copy-5-1').css('transform', 'translateY(30px)').css('opacity', 0)
+        $('.sec-4 .box-5 .copy-5-2').css('transform', 'translateY(30px)').css('opacity', 0)
+      }
+      
+
+      function wrap4a() {
+        $('.sec-4 .pict-7').css('transform', 'unset').css('opacity', 1)
+        setTimeout(()=> {
+          $('.sec-4 .type-7').css('transform', 'unset').css('opacity', 1)
+        }, 500)
+      }
+
+      function wrap4aReverse() {
+        $('.sec-4 .pict-7').css('transform', 'translateX(-30px)').css('opacity', 0)
+        $('.sec-4 .type-7').css('transform', 'translateX(-30px)').css('opacity', 0)
+      }
+      function wrap4b() {
+        $('.sec-4 .pict-8').css('transform', 'unset').css('opacity', 1)
+        setTimeout(()=> {
+          $('.sec-4 .type-8').css('transform', 'unset').css('opacity', 1)
+        }, 500)
+      }
+
+      function wrap4bReverse() {
+        $('.sec-4 .pict-8').css('transform', 'translateX(30px)').css('opacity', 0)
+        $('.sec-4 .type-8').css('transform', 'translateX(30px)').css('opacity', 0)
+      }
+
+      function wrap3a() {
+        $('.sec-4 .pict-5').css('transform', 'unset').css('opacity', 1)
+        setTimeout(()=> {
+          $('.sec-4 .type-5').css('transform', 'unset').css('opacity', 1)
+        }, 500)
+      }
+
+      function wrap3aReverse() {
+        $('.sec-4 .pict-5').css('transform', 'translateX(30px)').css('opacity', 0)
+        $('.sec-4 .type-5').css('transform', 'translateX(30px)').css('opacity', 0)
+      }
+      function wrap3b() {
+        $('.sec-4 .pict-6').css('transform', 'unset').css('opacity', 1)
+        setTimeout(()=> {
+          $('.sec-4 .type-6').css('transform', 'unset').css('opacity', 1)
+        }, 500)
+      }
+
+      function wrap3bReverse() {
+        $('.sec-4 .pict-6').css('transform', 'translateX(-30px)').css('opacity', 0)
+        $('.sec-4 .type-6').css('transform', 'translateX(-30px)').css('opacity', 0)
+      }
+
+      function wrap2a() {
+        $('.sec-4 .pict-3').css('transform', 'unset').css('opacity', 1)
+        setTimeout(()=> {
+          $('.sec-4 .type-3').css('transform', 'unset').css('opacity', 1)
+        }, 500)
+      }
+
+      function wrap2aReverse() {
+        $('.sec-4 .pict-3').css('transform', 'translateX(30px)').css('opacity', 0)
+        $('.sec-4 .type-3').css('transform', 'translateX(30px)').css('opacity', 0)
+      }
+      function wrap2b() {
+        $('.sec-4 .pict-4').css('transform', 'unset').css('opacity', 1)
+        setTimeout(()=> {
+          $('.sec-4 .type-4').css('transform', 'unset').css('opacity', 1)
+        }, 500)
+      }
+
+      function wrap2bReverse() {
+        $('.sec-4 .pict-4').css('transform', 'translateX(-30px)').css('opacity', 0)
+        $('.sec-4 .type-4').css('transform', 'translateX(-30px)').css('opacity', 0)
+      }
+
+      function box2() {
+        $('.sec-4 .box-2').css('transform', 'unset').css('opacity', 1)
+      }
+
+      function box2R() {
+        $('.sec-4 .box-2').css('transform', 'translateX(50vw)').css('opacity', 0)
+      }
+
+      function box3() {
+        $('.sec-4 .box-3').css('transform', 'unset').css('opacity', 1)
+      }
+
+      function box3R() {
+        $('.sec-4 .box-3').css('transform', 'translateX(50vw)').css('opacity', 0)
+      }
+
+      function box4() {
+        $('.sec-4 .box-4').css('transform', 'unset').css('opacity', 1)
+      }
+
+      function box4R() {
+        $('.sec-4 .box-4').css('transform', 'translateX(50vw)').css('opacity', 0)
+      }
+
+      function wrapa() {
+        $('.sec-4 .pict-1').css('transform', 'unset').css('opacity', 1)
+        setTimeout(()=> {
+          $('.sec-4 .type-1').css('transform', 'unset').css('opacity', 1)
+        }, 500)
+      }
+
+      function wrapaReverse() {
+        $('.sec-4 .pict-1').css('transform', 'translateX(30px)').css('opacity', 0)
+        $('.sec-4 .type-1').css('transform', 'translateX(30px)').css('opacity', 0)
+      }
+      function wrapb() {
+        $('.sec-4 .pict-2').css('transform', 'unset').css('opacity', 1)
+        setTimeout(()=> {
+          $('.sec-4 .type-2').css('transform', 'unset').css('opacity', 1)
+        }, 500)
+      }
+
+      function wrapbReverse() {
+        $('.sec-4 .pict-2').css('transform', 'translateX(-30px)').css('opacity', 0)
+        $('.sec-4 .type-2').css('transform', 'translateX(-30px)').css('opacity', 0)
+      }
 
       function t3Start() {
         $(".sec-3 .c-3-text").css("transform", "unset").css("opacity", 1);
